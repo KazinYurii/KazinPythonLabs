@@ -1,0 +1,6 @@
+<h1>Clients</h1>
+<ul>
+  {% for client in clients %}
+    <li>{{ client.company_name }} - {{ client.phone_number }}</li>
+  {% endfor %}
+</ul>

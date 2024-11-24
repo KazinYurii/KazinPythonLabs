@@ -1,0 +1,6 @@
+<h1>Repairs</h1>
+<ul>
+  {% for repair in repairs %}
+    <li>{{ repair.car.car_brand }} - {{ repair.repair_type }} - {{ repair.start_date }}</li>
+  {% endfor %}
+</ul>
